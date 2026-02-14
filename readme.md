@@ -4,6 +4,8 @@ This is an AI agent that answers your questions about Singapore's public transpo
 
 > **Note on Timezone:** All timestamps and time-based outputs use Singapore Time (SGT, UTC+8) to ensure consistency with data returned from the APIs. This allows direct comparison without timezone conversion of the data.
 
+---
+
 #### How it Works
 The agent follows a simple approach:
 1. Takes your question as **Input** (e.g., "When's the next bus at Orchard?")
