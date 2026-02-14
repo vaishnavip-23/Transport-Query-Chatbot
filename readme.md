@@ -50,7 +50,6 @@ The agent gracefully handles API failures and missing data during off-peak hours
 #### What I'm Assuming
 
 To keep this project focused, I've made a few reasonable assumptions:
-
 - **LTA's APIs are working**: I assume Singapore's transport data is *always available* and returns the expected information
 - **Questions are in English**: Users ask their questions in natural English (not other languages or coded messages)
 - **Questions make sense**: I'm assuming users ask reasonable questions (not trying to break the system on purpose)
