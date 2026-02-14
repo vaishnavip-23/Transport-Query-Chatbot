@@ -1,6 +1,6 @@
 #### Singapore Transport Query Agent
 
-This is an AI assistant that answers your questions about Singapore's public transport system. Think of it as your personal transport guide that can tell you when the next bus is coming, whether the MRT is busy, or what's happening with traffic right now.
+This is an AI agent that answers your questions about Singapore's public transport system. Think of it as your personal transport guide that can tell you when the next bus is coming, whether the MRT is busy, or what's happening with traffic right now.
 
 > **Note on Timezone:** All timestamps and time-based outputs use Singapore Time (SGT, UTC+8) to ensure consistency with data returned from the APIs. This allows direct comparison without timezone conversion of the data.
 
