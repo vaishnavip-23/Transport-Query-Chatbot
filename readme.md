@@ -56,7 +56,7 @@ To keep this project focused, I've made a few reasonable assumptions:
 - **Reasonable message size**: Questions stay within the AI model's token/context limits (no crazy long prompts)
 - **Peak hours are fixed**: Peak hours are hardcoded as 7:00 AM–9:59 AM and 5:00 PM–7:59 PM on weekdays (Monday–Friday). Off-peak covers all other times and weekends. In production, these could be made configurable or pulled from a database.
 
-- > **Real world finding** - LTA only publishes some data during peak hours (roughly 7-10 AM, 5-8 PM on weekdays). Off-peak and weekend data is sparse or unavailable.
+> **Real world finding** - LTA only publishes some data during peak hours (roughly 7-10 AM, 5-8 PM on weekdays). Off-peak and weekend data is sparse or unavailable.
 
 #### How I'd Deploy This in the Real World
 
