@@ -1,4 +1,4 @@
-#### Singapore Transport Query Agent
+### Singapore Transport Query Agent
 
 This is an AI agent that answers your questions about Singapore's public transport system. Think of it as your personal transport guide that can tell you when the next bus is coming, whether the MRT is busy, or what's happening with traffic right now.
 
@@ -34,10 +34,10 @@ I designed the agent with simplicity in mind. Each part does one job well, makin
   3. Call APIs (fetch all the transport data we need)
   4. Format Data (clean and organize the raw data)
   5. Generate Response (write and proofread the final answer)
-  ![Workflow Architecture](workflow_architecture.png)
 
-  
-  LangGraph passes a shared state object through each node, so every stage has access to everything learned so far. This keeps the code organized and testable—cleaner than dumping all logic in one function.
+![Workflow Architecture](workflow_architecture.png)
+
+LangGraph passes a shared state object through each node, so every stage has access to everything learned so far. This keeps the code organized and testable—cleaner than dumping all logic in one function.
 - **Structured responses**: The AI returns organized data (like "bus number", "arrival time") instead of rambling text
 - **Smart parsing**: Before asking for data, the agent extracts key details (bus stop names, service numbers) to avoid confusion
 - **Caching for speed**: Bus stop information doesn't change often, so I store it in memory. This saves time and reduces API calls
